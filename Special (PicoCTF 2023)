@@ -1,0 +1,13 @@
+#Special
+
+1. were given a "special" terminal that has an autocorrect feature implemented into it which makes it basically impossible to run most commands
+
+2. commands that are normally written as full words like clear dont work because the first letter becomes capitilized but we can get them to work but writing 2 commands in one line: Clear ; clear
+
+3. after digging in we can see that the server were on has python
+
+4. using the os library we can create a very small script that lets us basically run bash commands through python
+
+5. we import os and do os.system("ls")
+
+6. we can use this same approach with all other bash commands to move through the directories and read the flag.txt file
