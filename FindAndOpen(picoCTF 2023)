@@ -1,0 +1,9 @@
+#Find And Open
+
+1. this challenge provides us with 2 files, 1 which requires a password to open and another file which is a dump.
+
+2. if we cat the dump file well see a big wall of text with some cryptic messages through it that hint and what must be done
+
+3. if we look closey we can see theres a base64 encoded string, decoping it will give us half of the flag
+
+4. we can use this first half of the flag ass the password for the other file and this will provide us with the full flag.
