@@ -1,0 +1,11 @@
+#Specialer
+
+1. Were given a bash terminal thats been stripped of most common commands like ls and clear however we can still use cd
+
+2. we can take advantage of this by writing cd and pressing tab to show the files in the directory and esentially serve as a discount ls'
+
+3. we do this and nacigate through the directories and see there a various .txt files but we cant use cat so we have so we have to find an alternative
+
+4. after some research i found that you can use echo to read the contents of a file by doing echo "$(<file.txt)" and this will work basically the same way cat does
+
+5. we do this for a few files until we find the flag.
