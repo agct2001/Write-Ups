@@ -1,0 +1,17 @@
+We are presented with a dea file that we can view online, The 3D render is a black box with 2 gears, 1 with 40 teeth and another with 8 teeth
+
+we are also given an input value and we are told that with that input we will be able to acquire the key which will be the output
+
+to find the gear ratio we just divide the big gear by the small gear. its a 5:1 ratio
+
+using the input we can multiply it by 5 and ubtain quit a long number.
+
+Using a python script written but we can switch the number to a hex value and then turn that into ASCII and aquire the key 
+
+spins = input
+
+result = 5 * spins
+
+print(hex(result))
+
+print(bytes.fromhex(hex(result)[2:]))
